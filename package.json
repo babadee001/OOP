@@ -1,0 +1,28 @@
+{
+  "name": "oop-modelling",
+  "version": "1.0.0",
+  "description": "modelling of real life scenario using oop",
+  "main": "oop.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine-node test/testspec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babadee001/oop.git"
+  },
+  "keywords": [
+    "oop",
+    "javascript"
+  ],
+  "author": "temidayo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/babadee001/oop/issues"
+  },
+  "homepage": "https://github.com/babadee001/oop#readme"
+}
