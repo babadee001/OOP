@@ -35,7 +35,7 @@ class HumanBeing{
     play_ball(distance){
         this.kick();
         if(distance){
-            return `I am going to kick the ball within ${hours} metres`;
+            return `I am going to kick the ball within ${distance} metres`;
         }
         return `Ronaldo style.`;
     }
