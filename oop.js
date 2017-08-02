@@ -8,6 +8,9 @@ class HumanBeing{
         this._legs = 2;
         
     }
+    description(){
+        return "I have "+this._legs +"legs and "+this._hands+" hands";
+    }
     //access private properties: 
     //encapsulation
     getHead(){
@@ -61,6 +64,10 @@ class Employee extends HumanBeing{
         super(); //inherits HumanBeing
         this._job_title = job_title || "Engineer";
         this._respect = '';
+    }
+    //polymorphism
+    description(){
+        return "I am an/a "+ this._job_title+" by profession with obviously "+this.hands+" hands";
     }
 
     receiveRespect(level){
