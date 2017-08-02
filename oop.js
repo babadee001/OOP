@@ -67,7 +67,7 @@ class Employee extends HumanBeing{
     }
     //polymorphism
     description(){
-        return "I am an/a "+ this._job_title+" by profession with obviously "+this.hands+" hands";
+        return "I am an/a "+ this._job_title+" by profession with obviously ";
     }
 
     receiveRespect(level){
@@ -82,6 +82,7 @@ class Employee extends HumanBeing{
         }
     }
 }
+var me = 
 
 module.exports = {
     HumanBeing: HumanBeing,
